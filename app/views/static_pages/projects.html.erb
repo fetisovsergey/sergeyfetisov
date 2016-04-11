@@ -1,0 +1,38 @@
+<% provide(:title, 'Projects') %>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sergey Fetisov | <%= yield(:title) %></title>
+</head>
+<body>
+    <section id="others" data-type="background" data-speed="10" class="pages">
+             <article style="padding:0">
+			 	<%= image_tag("projects2.png", size: "290x290", class: "mainbutton")%><br><br>
+				<a href="http://www.autoservice69.ru">
+		 			  <%= image_tag("service.png", style:"width:15%;float:left;padding-left:5%", class: "mainbutton") %>
+		 		  </a>
+		 		  <a href="http://www.vinylprofi.ru">
+		 			  <%= image_tag("vinyl.png", style:"width:15%;float:left", class: "mainbutton") %>
+		 		  </a>
+				  <a href="http://www.reportsclub.ru">
+                                          <%= image_tag("reports.png", style:"width:15%;float:left", class: "mainbutton") %>
+                                  </a>
+				  <a href="http://www.showmaps.ru">
+                                          <%= image_tag("showmaps_logo.png", style:"width:15%;margin-left:20px;float:left", class: "mainbutton") %>
+                                  </a>
+				  <a href="http://www.realwaves.ru">
+                                          <%= image_tag("rw.png", style:"width:20%;margin-left:20px;float:left", class: "mainbutton") %>
+                                  </a>
+			 </article>
+    </section>
+     <section id="reports" data-type="background" data-speed="10" class="pages" style="font:60px 'violet';color:#FFFFFF;line-height:1.4">
+		   <br>           	   
+           	   По вопросам создания сайта<br>
+           	   пишите на <br>
+           	   <a href="mailto:sergfetisov@gmail.com" style="text-decoration:none;color:#FFFFFF">
+           	   sergfetisov@gmail.com
+           	   </a><br>
+		   или звоните по номеру<br>
+		   + 7 (960) 703-65-60
+     </section>
+</body>

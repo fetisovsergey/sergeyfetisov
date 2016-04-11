@@ -1,0 +1,27 @@
+<% provide(:title, 'Contact') %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sergey Fetisov | <%= yield(:title) %></title>
+  </head>
+  <body>
+	  <div id="moscow"></div>
+	  <h2>
+		  <%= image_tag("photo1.jpg", size: "150x150", class: "img-circle",style: "border: 3px solid #FFFFFF;") %><br>
+		  <%= link_to image_tag("logo2.png", size: "180x90"),root_path %></h2>
+	  <h2>
+		  <a href="https://vk.com/fetisow">
+			  <%= image_tag("vkontakte.png", size: "51x51", class: "morph") %>
+		  </a>
+		  &nbsp&nbsp&nbsp&nbsp
+		  <a href="http://instagram.com/fetisovsergey">
+			  <%= image_tag("instagram.png", size: "61x61", class: "morph") %>
+		  </a>
+		  &nbsp&nbsp
+		  <a href="mailto:sergfetisov@gmail.com">
+			  <%= image_tag("gmail.png", size: "64x64", class: "morph") %>
+		  </a>
+	  </h2><br>
+	  <div id="moscow"></div>
+ </body> 
+</html>
